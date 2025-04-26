@@ -40,7 +40,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "263771538985";
 global.read_status_from = process.env.READ_STATUS_FROM || "263771528985";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://bunny-md-V1.onrender.com/";
+global.scan = "https://bunny-md-v1-bszb.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID || //replace the code below with your sesion data

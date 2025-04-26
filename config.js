@@ -13,7 +13,7 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Uganda";
-global.github = process.env.GITHUB || "https://github.com/bunny00-bot/BUNNY-MD-V1.git";
+global.github = process.env.GITHUB || "https://github.com/bunny00-bot/BUNNY-MD-V1-.git";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vb5HhRAFi8xggoraw43G";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vb5HhRAFi8xggoraw43G";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/4cm6kb.jpg";
@@ -40,7 +40,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "263771538985";
 global.read_status_from = process.env.READ_STATUS_FROM || "263771528985";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://bunny-md-session.onrender.com/";
+global.scan = "https://bunny-md-V1.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID || //replace the code below with your sesion data

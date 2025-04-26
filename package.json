@@ -8,9 +8,9 @@
       "run": "pm2 start . --deep-monitoring --attach --name BUNNY_MD || node .",
       "asta": "pm2 start . --deep-monitoring --attach --name BUNNY_MD || node .",
       "start": "pm2 start . --attach --name BUNNY_MD",
-      "stop": "pm2 stop MAXTECH_MD-V2",
-      "heroku-postbuild": "git clone https://github.com/bunny00-bot/BUNNY-MD-V1.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/bunny00-bot/BUNNY-MD-V1.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "stop": "pm2 stop BUNNY_MD",
+      "heroku-postbuild": "git https://github.com/bunny00-bot/BUNNY-MD-V1-.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/bunny00-bot/BUNNY-MD-V1-.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "BUNNY",
@@ -76,10 +76,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://bunny-md-session.onrender.com/"
+      "url": "git+https://bunny-md-v1.onrender.com/"
    },
    "bugs": {
       "url": "https://github.com/bunny00-bot/BUNNY-MD-V1.git"
    },
-   "homepage": "https://github.com/bunny00-bot/BUNNY-MD-V1.git#readme"
+   "homepage": "https://github.com/bunny00-bot/BUNNY-MD-V1-.git#readme"
 }
